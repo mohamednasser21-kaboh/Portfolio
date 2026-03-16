@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- OG Tags for social sharing -->
+    <meta property="og:title" content="Mohamed Nasser | Front-End Developer" />
+    <meta
+      property="og:description"
+      content="Modern portfolio showcasing web projects and UI skills."
+    />
+    <meta
+      property="og:image"
+      content="https://mohamednasser21-kaboh.github.io/My-Portfolio/images/Favicon.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://mohamednasser21-kaboh.github.io/My-Portfolio/"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card (للحصول على صورة أحسن في تويتر) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mohamed Nasser | Front-End Developer" />
+    <meta
+      name="twitter:description"
+      content="Modern portfolio showcasing web projects and UI skills."
+    />
+    <meta
+      name="twitter:image"
+      content="https://mohamednasser21-kaboh.github.io/My-Portfolio/images/Favicon.jpg"
+    />
+    <!-- Favicon -->
+    <link
+      class="border"
+      rel="icon"
+      href="images/Favicon.jpg"
+      type="image/png"
+    />
+
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- CSS Files -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="page-loader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- animation aos -->
+    <div id="tsparticles"></div>
+
+    <!-- -------------------navbar---------- -->
+    <div class="content">
+      <div class="nav-wrapper">
+        <div class="grad-bar"></div>
+        <nav class="navbar">
+          <div
+            class="logo d-flex flex-row justify-content-center align-items-center"
+          >
+            <i class="fas fa-code" style="color: gold; margin-right: 8px"></i>
+            <h2 class="nav-logo m-0 d-flex flex-column">
+              Nasser <span class="">Frontend Developer</span>
+            </h2>
+          </div>
+
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+          <div class="part-lists">
+            <ul id="lists" class="nav w-100">
+              <li class="nav-item"><a href="#about-me">Home</a></li>
+              <li class="nav-item"><a href="#skills">Skills</a></li>
+              <li class="nav-item"><a href="#projects">Projects</a></li>
+              <li class="nav-item"><a href="#contact-us">Contact Us</a></li>
+              <li class="social-list w-50">
+                <a
+                  href="https://www.facebook.com/share/1GavuGc83t/"
+                  target="_blank"
+                  style="color: #3b5998"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/20_mohamed_nasser?igsh=eXB0ZXVkOWR3Y3ll"
+                  target="_blank"
+                  style="color: #e1306c"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/mohamed-nasser-a07a2a32a"
+                  target="_blank"
+                  style="color: #1d29d6"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://wa.me/201128638676"
+                  target="_blank"
+                  style="color: #25d366"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+                <a
+                  href="https://github.com/mohamednasser21-kaboh"
+                  target="_blank"
+                  style="color: #c9c6c6"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <!-- <a href="#" style="color: #0A66C2;"><i class="fab fa-linkedin-in"></i></a> -->
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!----------------- about me------------ -->
+    <div class="container about-me section" id="about-me">
+      <div class="topic">
+        <div
+          class="hed d-flex flex-row justify-content-start align-items-center"
+          data-aos="fade-down"
+          data-aos-duration="600"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-out"
+        >
+          <img src="images/image.webp" alt="" />
+          <p class="text-white m-0">
+            <i class="fa-regular fa-star"></i>Frontend Developer Portfolio
+          </p>
+        </div>
+
+        <div
+          class="pt-4"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-out"
+        >
+          <h1 class="text-start">
+            Creating <span>value through </span> Every Line of Code!
+          </h1>
+        </div>
+
+        <div
+          class="paragraph pt-4"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+          data-aos-easing="ease-in-out"
+        >
+          <p class="text-start">
+            I'm <span>mohamed nasser</span> , a Frontend Web Developer
+            passionate about building modern, responsive, and user-friendly
+            interfaces. I specialize in turning ideas into elegant, interactive
+            websites. I also work as a freelance developer, creating smart
+            digital solutions that enhance user experience. Check out my
+            projects and skills!
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="portfolio-img"
+        data-aos="fade-left"
+        data-aos-duration="700"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-out"
+      >
+        <img
+          class="w-50"
+          src="images/IMAGE-PORTFOLIO.png"
+          alt="Portfolio Image"
+        />
+      </div>
+    </div>
+
+    <!-- skils -->
+    <div class="container skills section" id="skills">
+      <div class="skills-intro text-center text-white mb-5">
+        <h2
+          class="skills-title gradient-text"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          skills
+        </h2>
+        <p data-aos="fade-left" data-aos-duration="1000">
+          Here are the technologies and tools I use to bring ideas to life,
+          <br />
+          build clean interfaces, and craft user experiences that leave an
+          impact.
+        </p>
+      </div>
+
+      <div class="slider">
+        <div class="slide_viewer">
+          <div class="slide_group" data-aos-duration="1000" data-aos="zoom-in">
+            <div class="slide">
+              <div class="content">
+                <h2>HTML</h2>
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <!-- HTML -->
+                <p>Building structured and semantic web pages.</p>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="content">
+                <h2>CSS</h2>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                <!-- CSS -->
+                <p>Styling modern, responsive user interfaces.</p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="content">
+                <h2>JavaScript</h2>
+                <i class="fab fa-js-square" style="color: #f7df1e"></i>
+                <!-- JavaScript -->
+                <p>Adding interactivity and logic to websites.</p>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide">
+              <div class="content">
+                <h2>Bootstrap</h2>
+                <i class="fab fa-bootstrap" style="color: #7952b3"></i>
+                <!-- Bootstrap -->
+                <p>Building responsive layouts with pre-built components.</p>
+              </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="slide">
+              <div class="content">
+                <h2>Sass</h2>
+                <i class="fab fa-sass" style="color: #cf649a"></i>
+                <!-- Sass -->
+                <p>Writing cleaner, reusable CSS using variables and mixins.</p>
+              </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="slide">
+              <div class="content">
+                <h2>React</h2>
+                <i class="fab fa-react" style="color: #61dafb"></i>
+                <!-- React -->
+                <p>
+                  Creating dynamic and fast user interfaces using components.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="slide">
+              <div class="content">
+                <h2>Tailwind CSS</h2>
+                <img
+                  src="images/tailwindcss-icon.svg"
+                  alt="Tailwind CSS Logo"
+                  style="width: 70px; height: 70px"
+                />
+                <p>
+                  Designing directly in HTML with utility-first CSS framework.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="slide">
+              <div class="content">
+                <h2>Github</h2>
+                <i class="fab fa-github"></i>
+                <p>"Building, sharing, and managing code on GitHub.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide_buttons"></div>
+
+      <div class="directional_nav">
+        <div
+          class="previous_btn"
+          title="Previous"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+        >
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="50px"
+            height="50px"
+            viewBox="-11 -11.5 65 66"
+          >
+            <g>
+              <g>
+                <path
+                  fill="#967e00"
+                  d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+			                    c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z"
+                />
+                <path
+                  fill="#967e00"
+                  d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0	c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564	c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          class="next_btn"
+          title="Next"
+          data-aos="fade-up-left"
+          data-aos-duration="1000"
+        >
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="50px"
+            height="50px"
+            viewBox="-11 -11.5 65 66"
+          >
+            <g>
+              <g>
+                <path
+                  fill="#967e00"
+                  d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5	c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288	c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z"
+                />
+                <path
+                  fill="#967e00"
+                  d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035 			L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class="container p-0 projects section" id="projects">
+      <h2 class="gradient-text" data-aos="fade-down" data-aos-duration="1000">
+        Projects
+      </h2>
+
+      <div class="buttons mb-5">
+        <div class="part">
+          <button
+            class="active"
+            data-filter="all"
+            data-aos="zoom-in"
+            data-aos-duration="600"
+          >
+            <i class="fa-solid fa-check-double"></i> All
+          </button>
+          <button data-filter="html" data-aos="zoom-in" data-aos-duration="800">
+            <i class="fab fa-html5"></i>HTML & CSS
+          </button>
+        </div>
+        <div class="part">
+          <button data-filter="js" data-aos="zoom-in" data-aos-duration="1000">
+            <i class="fab fa-js-square"></i>JavaScript
+          </button>
+          <button
+            data-filter="react"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <i class="fab fa-react"></i>React
+          </button>
+        </div>
+      </div>
+
+      <div class="container all-projects">
+        <div class="row d-flex flex-row">
+          <div class="card project js">
+            <div class="card-img">
+              <img src="images/store.jpg" alt="POS Store System" />
+            </div>
+
+            <div class="card-text">
+              <h3>POS Store System</h3>
+              <p>
+                A point-of-sale web system with order tracking, admin dashboard,
+                and responsive layout using HTML, CSS & JavaScript.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href=" https://mohamednasser21-kaboh.github.io/POS-Store-Management-System/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                <i class="fab fa-js-square" style="color: #f7df1e"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project html">
+            <div class="card-img">
+              <img src="images/project4.png" alt="Studio Website" />
+            </div>
+
+            <div class="card-text">
+              <h3>Studio Website</h3>
+              <p>
+                Modern studio website with responsive design, animated sections,
+                and clean UI using HTML, CSS & minimal JavaScript.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href="https://mohamednasser21-kaboh.github.io/Studio/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project js">
+            <div class="card-img">
+              <img src="images/project6.png" alt="CRUD Web App" />
+            </div>
+
+            <div class="card-text">
+              <h3>CRUD Web App</h3>
+              <p>
+                A complete CRUD system that lets you add, edit, delete, and
+                display data dynamically using HTML, CSS & JavaScript.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href=" https://mohamednasser21-kaboh.github.io/Crud/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                <i class="fab fa-js-square" style="color: #f7df1e"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project html">
+            <div class="card-img">
+              <img src="images/project1.png" alt="Family Bakry" />
+            </div>
+
+            <div class="card-text">
+              <h3>Family Bakry</h3>
+              <p>
+                My first web project — a responsive landing page for a local
+                bakery with food items and clean HTML/CSS design.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href="https://mohamednasser21-kaboh.github.io/Project-1/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project js">
+            <div class="card-img">
+              <img src="images/project7.png" alt="My Personal Portfolio" />
+            </div>
+
+            <div class="card-text">
+              <h3>My Personal Portfolio</h3>
+              <p>
+                A modern portfolio showcasing my front-end projects, skills, and
+                animations using HTML, CSS, and JavaScript.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a href="" class="visit-btn">
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                <i class="fab fa-js-square" style="color: #f7df1e"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card project react">
+            <div class="card-img">
+              <img
+                src="images/marketelo.png"
+                alt="MarketELO Marketing Agency"
+              />
+            </div>
+
+            <div class="card-text">
+              <h3>MarketELO</h3>
+              <p>
+                A modern digital marketing agency helping brands grow through
+                strategic marketing, creative campaigns, and data-driven
+                solutions that boost visibility and engagement.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href="https://marketelo-agency.netlify.app/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                <i class="fab fa-js-square" style="color: #f7df1e"></i>
+                <i class="fab fa-react" style="color: #61dbfb"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card project html">
+            <div class="card-img">
+              <img src="images/project2.png" alt="Coffee House Website" />
+            </div>
+
+            <div class="card-text">
+              <h3>Coffee House Website</h3>
+              <p>
+                A modern café website featuring drinks & snacks, built with
+                HTML, CSS, and responsive design techniques.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href="https://mohamednasser21-kaboh.github.io/Coffee-House/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project html">
+            <div class="card-img">
+              <img src="images/project3.png" alt="Personal Portfolio Website" />
+            </div>
+
+            <div class="card-text">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                A sleek personal portfolio to showcase web projects and skills
+                using HTML, CSS, JavaScript & animations.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href=" https://mohamednasser21-kaboh.github.io/Works/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project js">
+            <div class="card-img">
+              <img src="images/project5.png" alt="Simple E-commerce API" />
+            </div>
+
+            <div class="card-text">
+              <h3>Simple E-commerce API</h3>
+              <p>
+                A dynamic e-commerce site that fetches product data from an API
+                with real-time display using HTML, CSS & JavaScript.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href=" https://mohamednasser21-kaboh.github.io/Simple-Ecommerc-By-Api/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                <i class="fab fa-js-square" style="color: #f7df1e"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project react">
+            <div class="card-img">
+              <img
+                src="images/Screenshot (105).png"
+                alt="Simple E-commerce API"
+              />
+            </div>
+
+            <div class="card-text">
+              <h3>Spark Advertising</h3>
+              <p>
+                Your trusted partner in outdoor billboard advertising,
+                delivering maximum exposure and impactful brand visibility
+                across prime locations.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href="https://spark.mohamedalahlawynasser.workers.dev/"
+                target="_blank"
+                class="visit-btn"
+              >
+                <i class="fas fa-external-link-alt"></i> Visit Project
+              </a>
+              <div class="tech-icons">
+                <i class="fab fa-html5" style="color: #e44d26"></i>
+                <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                <i class="fab fa-js-square" style="color: #f7df1e"></i>
+                <i class="fab fa-react" style="color: #61dbfb"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- <h1 id="msgReact" class="msgReact text-danger text-center mt-5">
+            React projects coming soon!
+          </h1> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="container contact-us section">
+      <h2
+        class="contact-title gradient-text"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        Contact Us
+      </h2>
+      <p
+        class="contact-subtitle"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
+        As a passionate frontend developer, Im always eager to connect with
+        fellow professionals, potential clients, and anyone interested in my
+        work
+      </p>
+
+      <div class="contact-section" id="contact">
+        <form
+          class="contact-form"
+          id="contactForm"
+          onsubmit="sendToWhatsApp(event)"
+        >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+            required
+            data-aos="fade-right"
+            data-aos-duration="600"
+          />
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+            required
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          />
+
+          <textarea
+            placeholder="Enter Your Message"
+            name="message"
+            id="message"
+            required
+            data-aos="fade-right"
+            data-aos-duration="1400"
+          ></textarea>
+
+          <button type="submit" data-aos="fade-right" data-aos-duration="1800">
+            Send Message
+          </button>
+        </form>
+        <div
+          class="contactAnimation"
+          id="contactAnimation"
+          style="width: 300px; height: 300px"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        ></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <ul class="wrapper">
+        <a
+          class="icon facebook"
+          href="https://www.facebook.com/share/1GavuGc83t/"
+          target="_blank"
+        >
+          <span class="tooltip">Facebook</span>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </a>
+        <a
+          class="icon linkedin"
+          href="https://www.linkedin.com/in/mohamed-nasser-a07a2a32a"
+          target="_blank"
+        >
+          <span class="tooltip">LinkedIn</span>
+          <span><i class="fab fa-linkedin-in"></i></span>
+        </a>
+        <a
+          class="icon Whatsapp"
+          href="https://wa.me/201128638676"
+          target="_blank"
+        >
+          <span class="tooltip">Whatsapp</span>
+          <span><i class="fab fa-whatsapp"></i></span>
+        </a>
+        <a
+          class="icon instagram"
+          href="https://www.instagram.com/20_mohamed_nasser?igsh=eXB0ZXVkOWR3Y3ll"
+          target="_blank"
+        >
+          <span class="tooltip">Instagram</span>
+          <span><i class="fab fa-instagram"></i></span>
+        </a>
+        <a
+          class="icon github"
+          href="https://github.com/mohamednasser21-kaboh"
+          target="_blank"
+        >
+          <span class="tooltip">Github</span>
+          <span><i class="fab fa-github"></i></span>
+        </a>
+        <!-- <a class="icon Linkedin" href="" target="_blank">
+                <span class="tooltip">Linkedin</span>
+                <span><i class="fab fa-linkedin-in"></i></span>
+            </a> -->
+      </ul>
+      <div class="container" id="contact-us">
+        <p>&copy; 2025 Mohamed Nasser | All Rights Reserved</p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.0/lottie.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.3.0/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
